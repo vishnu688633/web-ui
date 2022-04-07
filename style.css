@@ -10,8 +10,8 @@ ul {
   color: gray;
   text-align: left;
   padding: 11px 55px;
- font-size: 30px;
- font-family: italic;
+  font-size: 30px;
+  font-family: italic;
 }
 li {
   float: left;
@@ -64,7 +64,7 @@ li.dropdown {
   text-align: left;
   padding-left: 50px;
   padding-top: 19px;
-font-family: italic;
+ font-family: italic;
 
 }
 
@@ -106,7 +106,7 @@ img{
  
   border-width: medium;
   border-radius:60%;
-text-decoration: none;
+  text-decoration: none;
 
 }
 
@@ -124,10 +124,10 @@ label {
                         
   }
 a{
-text-decoration: none;
-font-family: italic;
-font-size: 22px;
- color: gray;
+   text-decoration: none;
+   font-family: italic;
+   font-size: 22px;
+   color: gray;
 }
 
 
@@ -143,7 +143,7 @@ body{
 }
 
 .clr{
-color:gray;
+    color:gray;
 }
 
 
