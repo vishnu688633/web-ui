@@ -4,9 +4,8 @@
 <title>My Page Title</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="style.css">
-<style>
 
-</style>
+
 </head>
 <body>
 
@@ -17,17 +16,52 @@
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
     <div class="dropdown-content">
-      <a href="#">Sign in</a>
-      <a href="#">Sign out</a>
-    </div>
-  </li>
-</ul>
 
-<div class="search">
+
+      <a href="web.html">Sign in</a>
+<a href="#">Sign out</a>
+    </div>
+  
+<li><div class="search">
  <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" margin:8px;>
  <button type="submit" class="sb">Go</button>
- <a href="web.html"  class="button" style="float: right" >Add User</a>
+ 
+</div></li>
+<li>
+<button class="open-button" onclick="openForm()">Add User</button>
+
+<div class="form-popup" id="myForm">
+
+  <form action=""   class="form-container" >
+    
+    <label for="email"><b>Register</b></label><br>
+<label for="email"><b>name</b></label>
+    <input type="text"     id="inputname"placeholder="Enter Email" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text"  id="inputemail"placeholder="Enter Email" required >
+
+<label for="mobile"><b>Mobile</b></label>
+    <input type="text"  id="inputmobile"placeholder="Enter Mobile Number" required >
+
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password"   id="inputpassword" placeholder="Enter Password" required >
+
+    <button type="submit" onclick="addPerson()" id="btn" class="btn"  >Register</button>
+
+
+
+<button type="button" class="btn cancel" onclick="closeForm()" class="button">Close</button>
+  </form>
+
 </div>
+
+
+</li>
+</ul>
+
+
 
 
 
@@ -44,6 +78,7 @@
     </div>
   </form>
   </div>
+
 <div class="column1">
 <label for="image"><b></b></label>
    <a  href="details.html" >  <img src="ava.png"  style="width:50%" alt="Avatar">
@@ -145,16 +180,9 @@
     </div>
   </form>
   </div>
+<div>
 
-
-
-
-
-
-
-
-
-
+</div>
 
 
 
@@ -162,9 +190,9 @@
 
 
 </div>
-  
 
 
+<script src="script.js"></script>
 
 </body>
 </html>
